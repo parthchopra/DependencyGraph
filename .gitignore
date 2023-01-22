@@ -403,3 +403,5 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+DependencyGraph.CLI/.DS_Store
+TestOutput
