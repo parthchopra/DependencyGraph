@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZBLWxf6PFTHxbOH58kMuxUt8aCXzSb+kx93MrMm8iUvKiu04s+gTRx5wv7FNTr9mrpT5wUEqiv5o3GXg9VU1eg==",
+  "success": true,
+  "projectFilePath": "/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/DependencyGraph.CLI.csproj",
+  "expectedPackageFiles": [
+    "/Users/parthchopra/.nuget/packages/clifx/2.3.1/clifx.2.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

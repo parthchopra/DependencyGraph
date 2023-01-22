@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DependencyGraph.CLI/1.0.0": {
+        "dependencies": {
+          "CliFx": "2.3.1",
+          "DependencyGraph": "1.0.0"
+        },
+        "runtime": {
+          "DependencyGraph.CLI.dll": {}
+        }
+      },
+      "CliFx/2.3.1": {
+        "runtime": {
+          "lib/netstandard2.1/CliFx.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      },
+      "DependencyGraph/1.0.0": {
+        "runtime": {
+          "DependencyGraph.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DependencyGraph.CLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CliFx/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erOn8SLCHt3p+pj8nIKmzqDyXV6hwQr1wHmyVuFujnLJRKP1ovuswPBNKUNXv9Le7/HhNawln/Upc5v6Nhn3zA==",
+      "path": "clifx/2.3.1",
+      "hashPath": "clifx.2.3.1.nupkg.sha512"
+    },
+    "DependencyGraph/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

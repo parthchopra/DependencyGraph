@@ -1,0 +1,8 @@
+/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/bin/Debug/net6.0/publish/DependencyGraph.CLI
+/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/bin/Debug/net6.0/publish/DependencyGraph.CLI.dll
+/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/bin/Debug/net6.0/publish/DependencyGraph.CLI.deps.json
+/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/bin/Debug/net6.0/publish/DependencyGraph.CLI.runtimeconfig.json
+/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/bin/Debug/net6.0/publish/DependencyGraph.CLI.pdb
+/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/bin/Debug/net6.0/publish/CliFx.dll
+/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/bin/Debug/net6.0/publish/DependencyGraph.dll
+/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/bin/Debug/net6.0/publish/DependencyGraph.pdb

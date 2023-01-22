@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CliFx/2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/CliFx.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/CliFx.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DependencyGraph/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DependencyGraph.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DependencyGraph.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CliFx/2.3.1": {
+      "sha512": "erOn8SLCHt3p+pj8nIKmzqDyXV6hwQr1wHmyVuFujnLJRKP1ovuswPBNKUNXv9Le7/HhNawln/Upc5v6Nhn3zA==",
+      "type": "package",
+      "path": "clifx/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "analyzers/dotnet/cs/CliFx.Analyzers.deps.json",
+        "analyzers/dotnet/cs/CliFx.Analyzers.dll",
+        "analyzers/dotnet/cs/System.Buffers.dll",
+        "analyzers/dotnet/cs/System.Collections.Immutable.dll",
+        "analyzers/dotnet/cs/System.Memory.dll",
+        "analyzers/dotnet/cs/System.Numerics.Vectors.dll",
+        "analyzers/dotnet/cs/System.Reflection.Metadata.dll",
+        "analyzers/dotnet/cs/System.Runtime.CompilerServices.Unsafe.dll",
+        "analyzers/dotnet/cs/System.Text.Encoding.CodePages.dll",
+        "analyzers/dotnet/cs/System.Threading.Tasks.Extensions.dll",
+        "clifx.2.3.1.nupkg.sha512",
+        "clifx.nuspec",
+        "favicon.png",
+        "lib/netstandard2.0/CliFx.dll",
+        "lib/netstandard2.0/CliFx.xml",
+        "lib/netstandard2.1/CliFx.dll",
+        "lib/netstandard2.1/CliFx.xml"
+      ]
+    },
+    "DependencyGraph/1.0.0": {
+      "type": "project",
+      "path": "../DependencyGraph/DependencyGraph.csproj",
+      "msbuildProject": "../DependencyGraph/DependencyGraph.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CliFx >= 2.3.1",
+      "DependencyGraph >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/parthchopra/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/DependencyGraph.CLI.csproj",
+      "projectName": "DependencyGraph.CLI",
+      "projectPath": "/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/DependencyGraph.CLI.csproj",
+      "packagesPath": "/Users/parthchopra/.nuget/packages/",
+      "outputPath": "/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph.CLI/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/parthchopra/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph/DependencyGraph.csproj": {
+              "projectPath": "/Users/parthchopra/Documents/source/DependencyGraph/DependencyGraph/DependencyGraph.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "CliFx": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
