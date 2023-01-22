@@ -29,6 +29,13 @@ namespace DependencyGraph.CLI
                 string[,] input = File.ReadLines(InputFile).Where(line => line != "").Select(x => x.Split(',')).ToArray().To2D();
                 var dependencyGraphResult = new DependencyGraphSolver(input, logger).Solve();
 
+                // ensure directory exists
+                var outputDirectory = new FileInfo(OutputFile).Directory?.FullName;
+                if(outputDirectory != null && !Directory.Exists(outputDirectory))
+                {
+                    Directory.CreateDirectory(outputDirectory);
+                }
+
                 using (TextWriter tw = new StreamWriter(OutputFile))
                 {
                     foreach (var line in dependencyGraphResult)

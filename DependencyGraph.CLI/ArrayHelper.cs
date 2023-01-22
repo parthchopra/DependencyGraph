@@ -1,5 +1,5 @@
 ﻿using System;
-namespace DependencyGraph
+namespace DependencyGraph.CLI
 {
 	public static class ArrayHelper
 	{
